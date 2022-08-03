@@ -1,0 +1,293 @@
+body{
+    background-color: rgba(253, 209, 48, 1);
+    margin: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3F324A;
+}
+ul{
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+    list-style: none;
+}
+li{
+    font-size: 30px;
+    margin-right: 50px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.logo{
+    height: 70%;
+    margin: 30px;
+}
+.portada{
+    height: 72vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+}
+.img{
+    width: 500px;
+    height: 300px;
+}
+.letter{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+footer{
+    background-color: #3F324A;
+    height: 80px;
+    width: 100vw;
+    margin-bottom: 0px;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+.cont1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons{
+    width: 30%;
+    height: 70%;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.cont2{
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.enlace{
+    list-style: none;
+    margin-left: 15px;
+}
+.cont3{
+    width: 100vw;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+button{
+    width: 200px;
+    height: 100px;
+   background-color: black;
+   color: #ffffff;
+   border-radius: 5rem;
+}
+.escrib{
+    text-align: center;
+    font-size: 25px;
+}
+.form{
+    margin-top: 0px;
+    align-items: center;
+    width: 600px;
+    background-color: #3F324A;
+    padding: 20px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+}
+.controls{
+    width: 96%;
+    height: 10%;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(253, 209, 48, 1);
+    font-family: 'calibri';
+    font-size: 18px;   
+}
+.form p {
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+.form .boton {
+    width: 96%;
+    background-color: rgba(253, 209, 48, 1);
+    border: none;
+    padding: 12px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.contiprin{
+    width: 100vw;
+    height: 50px;
+    background-color: #070707;
+}
+.contiprin p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'calibri';
+    color: #ffffff;
+}
+.group{
+    padding-left: 260px;
+    width: 65vw;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categories{
+    width: 200px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categorías{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.subt{
+    margin-top: 270px;
+    background-color: #3F324A;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.conti{
+    width: 100vw;
+    height: 50px;
+    background-color: #3F324A;
+}
+.conti p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'calibri';
+    color: #ffffff;
+}
+.grup{
+    padding-left: 150px;
+    width: 80vw;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categor{
+    width: 150px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categori{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sabt{
+    margin-top: 270px;
+    background-color: #3F324A;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.conti2{
+    width: 100vw;
+    height: 50px;
+    background-color: #3F324A;
+}
+.conti2 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'calibri';
+    color: #ffffff;
+}
+.grup2{
+    padding-left: 150px;
+    width: 80vw;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categor2{
+    width: 150px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categori2{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sabt2{
+    margin-top: 270px;
+    background-color: #3F324A;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.conti3{
+    width: 100vw;
+    height: 50px;
+    background-color: #3F324A;
+}
+.conti3 p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'calibri';
+    color: #ffffff;
+}
+.grup3{
+    padding-left: 150px;
+    width: 80vw;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.categor3{
+    width: 150px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categori3{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sabt3{
+    margin-top: 270px;
+    background-color: #3F324A;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
